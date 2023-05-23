@@ -199,7 +199,7 @@
     }
     .col_input .input_group input{
         width: 100%;
-        max-width: calc(95% - 33px);
+        max-width: calc(98% - 33px);
         height: 40px;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
@@ -257,67 +257,3 @@
         color: #5F5F5F;
     }
 }
-/* 
-@media only screen and (max-width: 443px) {
-    .content_form {
-        width: 100%;
-        max-width: 435px;
-        min-width: 260px;
-        background-color: #fff;
-        border-radius: 0px;
-    }
-    .col_input {
-        width: 50%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        gap: 6px;
-        margin-bottom: 16px;
-    }
-    .col_input label{
-        font-size: 12px;
-        font-weight: 400;
-    }
-    .col_input .input_group .input_cutom{
-        width: 33px;
-        height: 38px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #eef2f8;
-        font-size: 13px;
-        color: #000;
-        border-top-left-radius: 5px;
-        border-bottom-left-radius: 5px;
-        border-top: 1px solid #ceced8;
-        border-left: 1px solid #ceced8;
-        border-bottom: 1px solid #ceced8;
-    }
-    .col_input .input_group input{
-        width: 100%;
-        max-width: calc(120px - 33px);
-        height: 38px;
-    }
-    .col_input .input_group2 option{
-        position: absolute;
-        display: inline-block;
-    }
-    .arrow{
-        width: 8px;
-        height: 8px;
-        position: relative;
-        top: -33px;
-        right: -98px;
-    }
-    .col_input .input_group2 select{
-        width: 100%;
-        max-width: 120px;
-        height: 38px;
-        border-radius: 5px;
-        border: 1px solid #ceced8;
-        padding: 10px;
-        transition: .3s;
-        appearance: none;
-        cursor: pointer;
-    }
-} */
